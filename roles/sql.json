@@ -1,0 +1,13 @@
+{
+    "name": "sql",
+    "description": "This role installs and configures MS SQL server",
+    "chef_type": "role",
+    "json_class": "Chef::Role",
+    "default_attributes": {
+    },
+    "override_attributes": {
+    },
+    "run_list": [
+        "recipe[pattern_sql]"
+    ]
+}
