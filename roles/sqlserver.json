@@ -1,5 +1,5 @@
 {
-    "name": "sql",
+    "name": "sqlserver",
     "description": "This role installs and configures MS SQL server",
     "chef_type": "role",
     "json_class": "Chef::Role",

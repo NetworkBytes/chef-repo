@@ -1,0 +1,11 @@
+{
+  "name":"sql_dev",
+  "chef_environment": "development",
+  "override": {},
+  "normal": {
+    "tags": []
+  },
+  "run_list": [
+    "role[sqlserver]"
+  ]
+}
